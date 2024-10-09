@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết cá nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 400px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            background-color:white;
+        }
+        .form-container h1 {
+            color:white;
+            text-align: left;
+            font-size: 22px;
+            background-color: red;
+            border-bottom: 2px solid red;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        label {
+            margin-bottom: 8px;
+        }
+        input[type="text"], input[type="email"], select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .gender {
+            margin-bottom: 10px;
+        }
+        .gender input {
+            padding: 20px;
+            margin-right: 5px;
+        }
+        .required {
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+            width: 400px;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>1. Chi tiết cá nhân</h1>
+            <label for="ten">Tên<span style="color: red;">*</span></label>
+            <input type="text" id="ten" name="ten" required>
+
+            <label for="ho">Họ<span style="color: red;">*</span></label>
+            <input type="text" id="ho" name="ho" required>
+            <p class ="required">Tên Phải Khớp với tên trong tài khoản ngân hàng của bạn để gửi và rút tiền</p>
+
+            <label>Giới tính<span style="color: red;">*</span></label>
+            <div class="gender">
+                <input type="radio" id="nam" name="gioitinh" value="Nam" required>
+                <label for="nam">Nam</label>
+                <input type="radio" id="nu" name="gioitinh" value="Nữ" required>
+                <label for="nu">Nữ</label>
+            </div>
+
+            <label for="email">Địa chỉ Email<span style="color: red;">*</span></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="confirm-email">Xác nhận địa chỉ Email<span style="color: red;">*</span></label>
+            <input type="email" id="confirm-email" name="confirm-email" required>
+
+            <label for="ngaysinh">Ngày sinh<span style="color: red;">*</span></label>
+            <input type="text" id="ngaysinh" name="ngaysinh" placeholder="Tháng 9 27, 2024" required>
+            <p class ="required">(Ví Dụ 12 Tháng 1 Năm 1970)</p>
+            <label for="quoctich">Quốc gia<span style="color: red;">*</span></label>
+            <select id="quoctich" name="quoctich">
+                <option value="Vietnam">Việt Nam</option>
+            </select>
+
+            <label for="diachi">Địa chỉ<span style="color: red;">*</span></label>
+            <input type="text" id="diachi" name="diachi" required>
+
+            <label for="phuongthi">Phường/Thị xã</label>
+            <input type="text" id="phuongthi" name="phuongthi" required>
+
+            <label for="quan">Quận/Huyện</label>
+            <input type="text" id="quan" name="quan">
+
+            <label for="thanhpho">Thành Phố/Tỉnh</label>
+            <input type="text" id="thanhpho" name="thanhpho" required>
+
+            <label for="zipcode">Mã Zip<span style="color: red;">*</span></label>
+            <input type="text" id="zipcode" name="zipcode" required>
+
+            <label for="didong">Điện thoại di động<span style="color: red;">*</span></label>
+            <input type="text" id="didong" name="didong" required>
+
+        </form>
+    </div>
+</body>
+</html>
