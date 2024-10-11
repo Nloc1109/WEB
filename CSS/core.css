@@ -1,0 +1,39 @@
+@font-face {
+    font-family: GoogleSans-BoldItalic;
+    src: url(GoogleSans-BoldItalic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GoogleSans-Italic;
+    src: url(GoogleSans-Italic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GoogleSans-Medium;
+    src: url(GoogleSans-Medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GoogleSans-MediumItalic;
+    src: url(GoogleSans-MediumItalic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GoogleSans-Regular;
+    src: url(GoogleSans-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: GoogleSans-Bold;
+    src: url(GoogleSans-Bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url(Merriweather-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Merriweather-Bold;
+    src: url(Merriweather-Bold.ttf) format("truetype")
+}
