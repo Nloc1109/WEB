@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng nhập hệ thống</title>
+    <link href="CSS/login.css" rel="stylesheet" />
+
+    <script src="/assets/admin/js/library/jquery-1.7.2.min.js"></script>
+</head>
+<body class="body-sign-in">
+    <div class="container">
+        <div class="panel panel-default form-container">
+            <div class="panel-body">
+<form action="/account/login" method="post"><input name="__RequestVerificationToken" type="hidden" value="Ze7y0Ti11TIpgXhh4gXeUX1iPTbyrGdxCZNv3EQjROrg0FgB7X5yzLs4c805CZdlnmW1EdFNGJ4-kCUuHXAR28eVsgc99HG9PquPmznVqHQ1" />                    <div class="login-logo text-center">
+                        <img alt="liveweb" src="Image/logo.png" style="width:100%">
+                    </div>
+<div class="validation-summary-valid text-danger" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>                    <div class="form-group text-center">
+                        <div class="login-mail input-group">
+                            <span class="login-addon input-group-addon"><img src="Image/login_mail.png"></span>
+                            <input autocomplete="off" class="form-control input-lg login-input login-input-mail" data-val="true" data-val-required="Xin hãy nhập e-mail/tên đăng nhập hợp lệ" id="Email" name="Email" placeholder="Địa chỉ email" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="form-group text-center">
+                        <div class="login-mail input-group">
+                            <span class="login-addon input-group-addon"><img src="Image/login_key.png"></span>
+                            <input autocomplete="off" class="form-control input-lg login-input login-input-key" data-val="true" data-val-required="Xin hãy nhập mật khẩu hợp lệ" id="Password" name="Password" placeholder="Nhập vào mật khẩu" type="password" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="controls">
+                            <div class="login-checkbox checkbox">
+                                <label>
+
+                                    <input type="checkbox" value="true" name="RememberMe" id="RememberMe">
+                                    <input type="hidden" value="false" name="RememberMe">
+                                    Duy trì đăng nhập
+                                </label>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-top">
+                        <input type="submit" title="Đăng nhập" value="Đăng nhập" class="btn btn-login btn-block btn-lg">
+                    </div>
+</form>            </div>
+        </div>
+    </div>
+</body>
+</html>
